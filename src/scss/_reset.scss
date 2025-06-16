@@ -1,0 +1,23 @@
+@use './typography';
+@use './colors';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+
+main{
+    margin: 1rem 1.5rem 6rem 1.5rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+    background: colors.$gradient-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}

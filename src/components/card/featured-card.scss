@@ -1,0 +1,40 @@
+.featured-card {
+    
+    &__container {
+        display: grid;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+
+        img, h2, p {
+            grid-area: 1 / 1;
+        }
+
+        img {
+           width: 100%;
+            z-index: 1;
+        }
+
+        h2, p {
+            color: white;
+            z-index: 2;
+            margin: 0;
+            padding: 0 3rem 0 2rem;
+        }
+
+        h2 {
+            align-self: end;
+            justify-self: start;
+            margin-bottom: 70px;
+            font-size: 1.4rem;
+            
+        }
+
+        p {
+            align-self: end;
+            justify-self: start;
+            margin-bottom: 35px;
+            font-size: 1rem;
+        }
+    }
+}

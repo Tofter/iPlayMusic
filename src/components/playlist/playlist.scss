@@ -1,0 +1,76 @@
+@use '../../scss/colors';
+
+.albums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 2rem;
+    scrollbar-width: none;
+    padding-left: calc(50vw - 75px);
+    padding-right: calc(50vw - 75px);
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.album {
+    scroll-snap-align: center;
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+
+.playlist {
+    margin-top: 3rem;
+
+    &__songs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1rem;
+
+        &__info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            svg {
+                background: colors.$gradient-color;
+                padding: .7rem;
+                padding-inline-start: 0;
+                padding-inline-end: 0;
+                font-size: 2rem;
+                border-radius: 50%;
+                color: white;
+            }
+        }
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+
+    button {
+        padding: 1.1rem 8.5rem;
+        font-weight: 600;
+        font-size: 1rem;
+        text-transform: uppercase;
+        border-radius: 50px;
+        background-color: white;
+        color: colors.$primary-color-red;
+        border: colors.$primary-color-red 4px solid;
+    }
+}
