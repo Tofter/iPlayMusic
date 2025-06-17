@@ -17,7 +17,7 @@ function AlbumDetails() {
                     </li>
                 ))}
             </ul>
-        </div>
+        </div> 
     );
 }
 

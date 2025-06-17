@@ -12,7 +12,7 @@ function Categories() {
                     <Category />
                 </div>
             </main>
-            <Footer />
+            <Footer /> 
         </>
     );
 }

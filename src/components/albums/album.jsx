@@ -9,7 +9,7 @@ function Album() {
             </h3>
             <p>View All</p>
         </div>
-        
+         
         </>
      );
 }

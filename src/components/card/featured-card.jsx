@@ -5,7 +5,7 @@ const albums = [
     {
         albumTitle: "Clumsy Anthems",
         artist: "The Stumblers",
-        songs: [
+        songs: [ 
             {
                 title: "Trip Over You",
                 artist: "The Stumblers",

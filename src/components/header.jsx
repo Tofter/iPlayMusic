@@ -8,7 +8,7 @@ function Header({ navigateReturn = true, toPage = -1, title = true, search = tru
     const navigate = useNavigate();
 
     return (
-        <>
+        <> 
             <header className={`header-${color}`}>
                 {navigateReturn && <FaChevronLeft onClick={() => navigate(toPage)} />}
                 <h1>{title}</h1>

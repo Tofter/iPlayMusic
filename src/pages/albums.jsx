@@ -12,7 +12,7 @@ function Albums() {
                 </div>
                 <Album/>
             </main>
-            <Footer />
+            <Footer /> 
         </>
 
     );

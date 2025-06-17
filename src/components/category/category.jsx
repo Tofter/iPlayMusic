@@ -8,7 +8,7 @@ const categories = [
         name: 'Alternative',
         subcategories: ['Indie', 'Punk', 'Grunge']
     },
-    {
+    { 
         name: 'Blues',
         subcategories: ['Acoustic Blues', 'Blues Rock', 'Canadian Blues', 'Jazz Blues', 'Piano Blues', 'Soul Blues', 'Swamp Blues']
     },

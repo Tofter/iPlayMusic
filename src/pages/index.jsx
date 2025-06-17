@@ -14,7 +14,7 @@ function Index() {
                 <div>
                     <h2>Featured</h2>
                 </div>
-                <FeaturedCard />
+                <FeaturedCard /> 
                 <FeaturedCard />
                 <FeaturedCard />
             </main>

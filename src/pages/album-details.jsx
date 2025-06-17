@@ -11,7 +11,7 @@ function AlbumDetails() {
         </main>
         <Footer/>
         </>
-     );
+     ); 
 }
 
 export default AlbumDetails;

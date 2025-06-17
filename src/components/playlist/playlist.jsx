@@ -6,7 +6,7 @@ import { FaPlay } from 'react-icons/fa';
 
 
 const albums = [
-    {
+    { 
         id: 1,
         albumTitle: "Midnight Drive",
         genre: "Synthwave",

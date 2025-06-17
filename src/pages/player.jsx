@@ -10,7 +10,7 @@ function Player() {
         </main>
         <Footer/>
         </>
-     );
+     ); 
 }
 
 export default Player;

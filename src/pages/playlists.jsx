@@ -10,7 +10,7 @@ function Playlists() {
             <Header color="light" title='playlist'/>
             <main>
                 <Playlist/>
-            </main>
+            </main> 
             <Footer/>
         </>
      );
