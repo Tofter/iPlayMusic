@@ -1,1 +1,52 @@
+ .album-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 1rem 0;
+
+    h3{
+
+    }
+ }
  
+ .featured {
+     display: flex;
+     overflow-x: scroll;
+     scroll-snap-type: x mandatory;
+     scrollbar-width: none;
+     gap: 1.5rem;
+     
+     img{
+        border-radius: 15px;
+        max-width: 8rem;
+     }
+
+ }
+
+ .new-release {
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+
+    &__album {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        padding-bottom: 1.5rem;
+
+        img {
+            max-width: 5rem;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        p:last-child {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

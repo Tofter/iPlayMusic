@@ -2,8 +2,6 @@
 
 .albums {
     display: flex;
-    justify-content: center;
-    align-items: center;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     gap: 2rem;
